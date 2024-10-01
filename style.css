@@ -9,25 +9,37 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
-/* Make the full header background white */
-header {
-    background-color: white; /* White background for the full header */
-    padding: 20px; /* Optional: Add padding for spacing */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+/* Full header background white */
+#header {
+    background-color: white; /* Set the header background to white */
+    padding: 20px 0; /* Optional padding */
 }
 
-/* Style the menu text */
-header nav a {
-    color: black; /* Change the menu text color to black */
-    text-decoration: none; /* Remove underline from links */
-    margin-right: 20px; /* Add space between menu items */
+/* Style the logo */
+#header .brand img {
+    height: 50px; /* Adjust the logo height */
+    margin-right: 10px; /* Add spacing after the logo */
+}
+
+/* Style the navigation links */
+#header .nav-list ul li a {
+    color: black; /* Default link text color black */
+    text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make the text bold */
+    padding: 10px; /* Add padding for spacing */
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
-/* Add hover effect for the menu links */
-header nav a:hover {
-    color: gray; /* Optional: Change the text color on hover */
+/* Change text color to red on hover */
+#header .nav-list ul li a:hover {
+    color: red; /* Change the text color to red when hovered */
 }
+
+/* Optional: Style the hamburger menu (if needed) */
+#header .hamburger .bar {
+    background-color: black; /* Set the hamburger menu bar color to black */
+}
+
 a {
 	text-decoration: none;
 }
