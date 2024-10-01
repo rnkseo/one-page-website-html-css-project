@@ -9,23 +9,24 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
-/* Set the background color of the menu bar */
+/* Make the full header background white */
 header {
-    background-color: white; /* Change the background to white */
-    padding: 10px; /* Optional: Adjust the padding */
+    background-color: white; /* White background for the full header */
+    padding: 20px; /* Optional: Add padding for spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
 }
 
-/* Set the text color of the menu items */
-header a {
-    color: black; /* Change text to black */
-    text-decoration: none; /* Remove underlines, if any */
-    padding: 10px; /* Optional: Adjust the spacing */
-    font-weight: bold; /* Optional: Make text bold */
+/* Style the menu text */
+header nav a {
+    color: black; /* Change the menu text color to black */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 20px; /* Add space between menu items */
+    font-weight: bold; /* Make the text bold */
 }
 
-/* Add hover effect for menu items */
-header a:hover {
-    color: gray; /* Change text color on hover */
+/* Add hover effect for the menu links */
+header nav a:hover {
+    color: gray; /* Optional: Change the text color on hover */
 }
 a {
 	text-decoration: none;
