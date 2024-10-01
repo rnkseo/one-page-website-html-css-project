@@ -9,6 +9,24 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
+/* Set the background color of the menu bar */
+header {
+    background-color: white; /* Change the background to white */
+    padding: 10px; /* Optional: Adjust the padding */
+}
+
+/* Set the text color of the menu items */
+header a {
+    color: black; /* Change text to black */
+    text-decoration: none; /* Remove underlines, if any */
+    padding: 10px; /* Optional: Adjust the spacing */
+    font-weight: bold; /* Optional: Make text bold */
+}
+
+/* Add hover effect for menu items */
+header a:hover {
+    color: gray; /* Change text color on hover */
+}
 a {
 	text-decoration: none;
 }
