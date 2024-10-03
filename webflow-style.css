@@ -2240,7 +2240,7 @@ figcaption {
 }
 
 .container {
-  background-color: #f5f7fa;
+  background-color: #ffffff;
   width: 100%;
   max-width: 1140px;
   margin-left: auto;
@@ -3745,9 +3745,6 @@ figcaption {
   .blog-summary-wrap {
     width: 100%;
   }
-.about-grid {
-    background-color: white; /* Sets the background color to white */
-}
 
   .about-grid {
     grid-row-gap: 50px;
