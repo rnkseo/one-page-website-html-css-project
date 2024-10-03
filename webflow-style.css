@@ -2240,7 +2240,7 @@ figcaption {
 }
 
 .container {
-  background-color: #ffffff;
+  background-color: White;
   width: 100%;
   max-width: 1140px;
   margin-left: auto;
@@ -3423,7 +3423,7 @@ figcaption {
 }
 
 .hero-without-image {
-  background-color: #ffffff;
+  background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
   padding: 40px 30px 20px;
   position: relative;
