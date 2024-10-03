@@ -4061,6 +4061,7 @@ figcaption {
     font-size: 26px;
   }
 
+
   .about-grid.cc-about-2 {
     margin-bottom: 60px;
   }
@@ -4074,6 +4075,9 @@ figcaption {
     grid-auto-flow: row;
     place-items: stretch stretch;
   }
+.about-grid {
+    background-color: #f0f0f0 !important;
+}
 
   .text-block-9 {
     line-height: 38px;
