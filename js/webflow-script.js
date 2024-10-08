@@ -2391,6 +2391,7 @@
             script.onload = () => {
               $doc.on("submit", namespace + " form", function(evt) {
                 var data = $.data(this, namespace);
+                disableBtn(data);
                 if (data.handler) {
                   data.evt = evt;
                   evt.preventDefault();
