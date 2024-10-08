@@ -3163,8 +3163,10 @@ figcaption {
 
 .text-block-9 {
   text-align: center;
+  height: auto;
   padding-top: 30px;
   font-size: 36px;
+  line-height: 50px;
 }
 
 .text-block-10 {
@@ -3375,11 +3377,13 @@ figcaption {
   width: 46%;
   margin-bottom: 18px;
   margin-left: 80px;
+  margin-right: 60px;
 }
 
 .team-block-info {
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
   padding-left: 24px;
   padding-right: 24px;
   display: flex;
@@ -3903,6 +3907,15 @@ figcaption {
     margin-right: 6%;
   }
 
+  .team-block-info {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-member-text {
+    align-self: center;
+  }
+
   .footer-content {
     grid-column-gap: 60px;
   }
@@ -4047,7 +4060,15 @@ figcaption {
     grid-template-columns: 1fr 1fr;
   }
 
-  .features-list, .pricing-overview, .team-slider, .hero-without-image {
+  .features-list, .pricing-overview, .team-slider {
+    padding: 60px 15px;
+  }
+
+  .team-member-image-two {
+    width: 50%;
+  }
+
+  .hero-without-image {
     padding: 60px 15px;
   }
 
@@ -4227,21 +4248,46 @@ figcaption {
   }
 
   .team-block {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
     text-align: center;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
   }
 
   .team-member-image-two {
+    float: none;
     text-align: center;
-    width: 100%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    position: static;
+  }
+
+  .team-block-info {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-member-text {
+    align-self: center;
   }
 
   .team-slider-nav {
     margin-top: 0;
   }
 
+  .team-member-name-two-2 {
+    align-self: center;
+  }
+
   .hero-without-image {
     border-radius: 0;
     grid-auto-flow: row;
+    padding-bottom: 0;
   }
 
   .hero-wrapper-two {
@@ -4249,9 +4295,11 @@ figcaption {
   }
 
   .image-4 {
-    border: 1px solid var(--black);
+    border: 0px solid var(--white);
     background-color: #f5f7fa;
-    border-radius: 2px;
+    border-radius: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -4432,6 +4480,10 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-_8caceec7-e488-0399-a2b1-c7380761d3b2-18fe8f78 {
+    place-self: center;
+  }
+
   #w-node-c28cc763-f708-1e61-f196-6bd9fce98043-18fe8f7c {
     grid-area: 2 / 1 / 3 / 2;
   }
